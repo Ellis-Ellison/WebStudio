@@ -1,0 +1,10 @@
+:root {
+    --button-and-text-with-logo-color: #2196F3;
+    --main-text-color: #212121;
+    --paragraph-color: #757575;
+    --bg-main-first-section-color: #2F303A;
+    --accent-color: #FFFFFF;
+    --bg-main-last-section-color: #F5F4FA;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+    --logo-color: #000000;
+}
