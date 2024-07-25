@@ -1,7 +1,9 @@
+/* All colors and fonts */
+
 :root {
-    --button-and-text-with-logo-color: #2196F3;
+    --button-and-text-with-logo-and-contacts-color: #2196F3;
     --main-text-color: #212121;
-    --paragraph-color: #757575;
+    --paragraph-and-contacts-color: #757575;
     --bg-main-first-section-color: #2F303A;
     --accent-color: #FFFFFF;
     --bg-main-last-section-color: #F5F4FA;
@@ -12,3 +14,187 @@
     --logo-family: "Raleway", sans-serif;
 }
 
+/* Body */
+
+body {
+    font-family: var(--font-family);
+}
+
+/* Header */
+
+.header-logo,
+.footer-logo {
+    font-family: var(--logo-family);
+    color: var(--logo-color);
+    font-size: 26px;
+    letter-spacing: 0.03em;
+}
+
+.header-span,
+.footer-span {
+    color: var(--button-and-text-with-logo-and-contacts-color);
+}
+
+.header-link {
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link.current {
+    color: var(--button-and-text-with-logo-and-contacts-color);
+}
+
+.contacts-email,
+.contacts-phone {
+    color: var(--paragraph-and-contacts-color);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+
+.contacts-email:focus,
+.contacts-email:hover,
+.contacts-phone:focus,
+.contacts-phone:hover {
+    color: var(--button-and-text-with-logo-and-contacts-color);
+}
+
+/* Main */
+
+.service {
+    background-color: var(--bg-main-first-section-color);
+}
+
+.service-title {
+    color: var(--accent-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.service-button {
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    text-align: center;
+    background-color: var(--button-and-text-with-logo-and-contacts-color);
+}
+
+.hero-list-title {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.hero-list-bio {
+    color: var(--paragraph-and-contacts-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.92;
+    letter-spacing: 0.03em;
+}
+
+.working-title {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team {
+    background-color: var(--bg-main-last-section-color);
+}
+
+.team-title {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team-list-name {
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team-list-work {
+    color: var(--paragraph-and-contacts-color);
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--bg-main-first-section-color);
+}
+
+.footer-logo {
+    color: var(--accent-color);
+}
+
+.footer-address-city {
+    color: var(--accent-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+}
+
+.footer-address-email,
+.footer-address-phone {
+    color: var(--footer-contacts-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+}
+
+/* Portfolio */
+
+.course-list-button {
+    color: var(--main-text-color);
+    background-color: var(--bg-main-last-section-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.course-list-button.current,
+.course-list-button:hover,
+.course-list-button:focus {
+    color: var(--accent-color);
+    background-color: var(--button-and-text-with-logo-and-contacts-color);
+}
+
+.course-list-name {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.77;
+    letter-spacing: 0.06em;
+}
+
+.course-list-type {
+    color: var(--paragraph-and-contacts-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+}
