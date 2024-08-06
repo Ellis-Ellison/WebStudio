@@ -4,111 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
+    <link href="./css/reset.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
-    <link href="./css/reset.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <nav class="header-nav">
-            <a class="header-logo" href="./index.html"><span class="header-span">Web</span>Studio</a>
-            <ul class="header-list">
-                <li class="header-list-item"><a class="header-link" href="./index.html">Studio</a></li>
-                <li class="header-list-item"><a class="header-link current" href="./portfolio.html">Portfolio</a></li>
-                <li class="header-list-item"><a class="header-link" href="#">Contacts</a></li>
-            </ul>
-        </nav>
-        <div class="header-contacts">
-            <a class="contacts-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="contacts-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+        <div class="container">
+            <nav class="header-nav">
+                <a class="header-logo" href="./index.html"><span class="header-span">Web</span>Studio</a>
+                <ul class="header-list">
+                    <li class="header-list-item"><a class="header-link" href="./index.html">Studio</a></li>
+                    <li class="header-list-item"><a class="header-link current" href="./portfolio.html">Portfolio</a></li>
+                    <li class="header-list-item"><a class="header-link" href="#">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="header-contacts">
+                <a class="contacts-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="contacts-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+            </div>
+            <!-- <hr> -->
         </div>
-        <!-- <hr> -->
     </header>
     <main class="main">
         <section class="course">
-            <ul class="course-list">
-                <li class="course-list-item"><button class="course-list-button current">All</button></li>
-                <li class="course-list-item"><button class="course-list-button">Web-Sites</button></li>
-                <li class="course-list-item"><button class="course-list-button">Apps</button></li>
-                <li class="course-list-item"><button class="course-list-button">Design</button></li>
-                <li class="course-list-item"><button class="course-list-button">Marketing</button></li>
-            </ul>
-            <ul class="course-genre">
-                <li class="course-genre-list">
-                    <img class="course-genre-img" src="./img/portfolio/first-website.jpg" alt="Technokryak" height="294" width="370">
-                    <div class="course-genre-div">
-                        <h3 class="course-genre-name">Technokryak</h3>
-                        <p class="course-genre-type">Web-sites</p>
-                    </div>
-                </li>
-                <li class="course-genre-list">
-                    <img class="course-genre-img" src="./img/portfolio/first-design.jpg" alt="Poster New Orlean vs Golden Star" height="294" width="370">
-                    <div class="course-genre-div">
-                        <h3 class="course-genre-name">Poster New Orlean vs Golden Star</h3>
-                        <p class="course-genre-type">Design</p>
-                    </div>
-                </li>
-                <li class="course-genre-list">
-                    <img class="course-genre-img" src="./img/portfolio/first-app.jpg" alt="Restaurant Seafood" height="294" width="370">
-                    <div class="course-genre-div">
-                        <h3 class="course-genre-name">Restaurant Seafood</h3>
-                        <p class="course-genre-type">Apps</p>
-                    </div>
-                </li>
-                <li class="course-genre-list">
-                    <img class="course-genre-img" src="./img/portfolio/first-marketing.jpg" alt="Project Prime" height="294" width="370">
-                    <div class="course-genre-div">
-                        <h3 class="course-genre-name">Project Prime</h3>
-                        <p class="course-genre-type">Marketing</p>
-                    </div>
-                </li>
-                <li class="course-genre-list">
-                    <img class="course-genre-img" src="./img/portfolio/second-app.jpg" alt="Project Boxes" height="294" width="370">
-                    <div class="course-genre-div">
-                        <h3 class="course-genre-name">Project Boxes</h3>
-                        <p class="course-genre-type">Apps</p>
-                    </div>
-                </li>
-                <li class="course-genre-list">
-                    <img class="course-genre-img" src="./img/portfolio/second-website.jpg" alt="Inspiration has no Borders" height="294" width="370">
-                    <div class="course-genre-div">
-                        <h3 class="course-genre-name">Inspiration has no Borders</h3>
-                        <p class="course-genre-type">Web-Sites</p>
-                    </div>
-                </li>
-                <li class="course-genre-list">
-                    <img class="course-genre-img" src="./img/portfolio/second-design.jpg" alt="Limited Edition" height="294" width="370">
-                    <div class="course-genre-div">
-                        <h3 class="course-genre-name">Limited Edition</h3>
-                        <p class="course-genre-type">Design</p>
-                    </div>
-                </li>
-                <li class="course-genre-list">
-                    <img class="course-genre-img" src="./img/portfolio/second-marketing.jpg" alt="Project LAB" height="294" width="370">
-                    <div class="course-genre-div">
-                        <h3 class="course-genre-name">Project LAB</h3>
-                        <p class="course-genre-type">Marketing</p>
-                    </div>
-                </li>
-                <li class="course-genre-list">
-                    <img class="course-genre-img" src="./img/portfolio/third-app.jpg" alt="Growing Business" height="294" width="370">
-                    <div class="course-genre-div">
-                        <h3 class="course-genre-name">Growing Business</h3>
-                        <p class="course-genre-type">Apps</p>
-                    </div>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="course-list">
+                    <li class="course-list-item"><button class="course-list-button current">All</button></li>
+                    <li class="course-list-item"><button class="course-list-button">Web-Sites</button></li>
+                    <li class="course-list-item"><button class="course-list-button">Apps</button></li>
+                    <li class="course-list-item"><button class="course-list-button">Design</button></li>
+                    <li class="course-list-item"><button class="course-list-button">Marketing</button></li>
+                </ul>
+                <ul class="course-genre">
+                    <li class="course-genre-list">
+                        <img class="course-genre-img" src="./img/portfolio/first-website.jpg" alt="Technokryak" width="370">
+                        <div class="course-genre-div">
+                            <h3 class="course-genre-name">Technokryak</h3>
+                            <p class="course-genre-type">Web-sites</p>
+                        </div>
+                    </li>
+                    <li class="course-genre-list">
+                        <img class="course-genre-img" src="./img/portfolio/first-design.jpg" alt="Poster New Orlean vs Golden Star" width="370">
+                        <div class="course-genre-div">
+                            <h3 class="course-genre-name">Poster New Orlean vs Golden Star</h3>
+                            <p class="course-genre-type">Design</p>
+                        </div>
+                    </li>
+                    <li class="course-genre-list">
+                        <img class="course-genre-img" src="./img/portfolio/first-app.jpg" alt="Restaurant Seafood" width="370">
+                        <div class="course-genre-div">
+                            <h3 class="course-genre-name">Restaurant Seafood</h3>
+                            <p class="course-genre-type">Apps</p>
+                        </div>
+                    </li>
+                    <li class="course-genre-list">
+                        <img class="course-genre-img" src="./img/portfolio/first-marketing.jpg" alt="Project Prime" width="370">
+                        <div class="course-genre-div">
+                            <h3 class="course-genre-name">Project Prime</h3>
+                            <p class="course-genre-type">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="course-genre-list">
+                        <img class="course-genre-img" src="./img/portfolio/second-app.jpg" alt="Project Boxes" width="370">
+                        <div class="course-genre-div">
+                            <h3 class="course-genre-name">Project Boxes</h3>
+                            <p class="course-genre-type">Apps</p>
+                        </div>
+                    </li>
+                    <li class="course-genre-list">
+                        <img class="course-genre-img" src="./img/portfolio/second-website.jpg" alt="Inspiration has no Borders" width="370">
+                        <div class="course-genre-div">
+                            <h3 class="course-genre-name">Inspiration has no Borders</h3>
+                            <p class="course-genre-type">Web-Sites</p>
+                        </div>
+                    </li>
+                    <li class="course-genre-list">
+                        <img class="course-genre-img" src="./img/portfolio/second-design.jpg" alt="Limited Edition" width="370">
+                        <div class="course-genre-div">
+                            <h3 class="course-genre-name">Limited Edition</h3>
+                            <p class="course-genre-type">Design</p>
+                        </div>
+                    </li>
+                    <li class="course-genre-list">
+                        <img class="course-genre-img" src="./img/portfolio/second-marketing.jpg" alt="Project LAB" width="370">
+                        <div class="course-genre-div">
+                            <h3 class="course-genre-name">Project LAB</h3>
+                            <p class="course-genre-type">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="course-genre-list">
+                        <img class="course-genre-img" src="./img/portfolio/third-app.jpg" alt="Growing Business" width="370">
+                        <div class="course-genre-div">
+                            <h3 class="course-genre-name">Growing Business</h3>
+                            <p class="course-genre-type">Apps</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
-        <a class="footer-logo" href="./index.html"><span class="footer-span">Web</span>Studio</a>
-        <address class="footer-address">
-            <p class="footer-address-city">Sity Kyiv, 26 Lesi Ukrainky Ave.</p>
-            <a class="footer-address-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="footer-address-phone" href="tel:+380961111111">+38 096 111 11 11</a>
-        </address>
+        <div class="container">
+            <a class="footer-logo" href="./index.html"><span class="footer-span">Web</span>Studio</a>
+            <address class="footer-address">
+                <p class="footer-address-city">Sity Kyiv, 26 Lesi Ukrainky Ave.</p>
+                <a class="footer-address-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="footer-address-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
